@@ -1,6 +1,7 @@
-<?php
+<     ?   python 
 
-include("config.py");
+
+termasuk ( "config.py" );
 $url = "https://apiv1.coinspinner.me/account/signin";
 
 $headers = array();
@@ -51,7 +52,7 @@ function isi($headers, $cas){
 
 
 function spin($headers, $data, $cas){
-   $ch = curl_init();
+   $ ch  =  curl_init ()
    curl_setopt($ch, CURLOPT_URL, "https://apiv1.coinspinner.me/play");
    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
